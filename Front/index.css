@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; /* Green color */
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+
+.hero-section {
+    position: relative;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+}
+
+.project-section,
+.user-engagement,
+.graph-container,
+.Chart-container,
+.cost-table,
+.consumption-table,
+.energy-usage-stats {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-description {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.user-engagement {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.graph-container {
+    text-align: center;
+}
+
+.graph-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.Chart-container {
+    text-align: center;
+}
+
+.Pie-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.cost-table,
+.consumption-table,
+.energy-usage-stats {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
